@@ -32,6 +32,7 @@ export default Vue.extend({
   //     }
   //   }
   // },
+  //triggerCi
   head: {
     title: "C.S.V. Ichthus Eindhoven",
     htmlAttrs: {
