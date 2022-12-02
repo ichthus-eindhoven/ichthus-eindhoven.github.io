@@ -1,6 +1,7 @@
 <template>
   <div id="footer" class="uk-section uk-section-muted">
     <div class="uk-container uk-text-center uk-text-middle">
+    <!--wie dit leest trekt een bak -->
       <!-- <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle uk-margin-remove-top" uk-grid>
         <div>
           <a
