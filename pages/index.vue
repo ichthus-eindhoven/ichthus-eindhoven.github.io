@@ -1,7 +1,9 @@
 <template>
   <div style="flex: 1;">
     <intro-overlay :intro-overlay-active="false"/>
+    <passion-week-overlay :pw-overlay-active="true"/>
     <hero :intro-nav-active="false"/>
+    <hero :pw-nav-active="true"/>
     <blurb/>
     <!-- <activities /> -->
     <media/>

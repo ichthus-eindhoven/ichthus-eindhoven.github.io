@@ -16,6 +16,7 @@
           <li><a href="#contact">Contact</a></li>
           <li><a href="#partners">Partners</a></li>
           <li v-if="this.introNavActive"><a href="#hero" @click="showIntro">Intro</a></li>
+          <li v-if="this.pwNavActive"><a href="#hero" @click="showPw">Passion Week</a></li>
         </ul>
       </div>
       <div class="uk-navbar-left uk-hidden@m">
@@ -33,6 +34,7 @@
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#partners">Partners</a></li>
                 <li v-if="this.introNavActive"><a @click="showIntro">Intro</a></li>
+                <li v-if="this.pwNavActive"><a @click="showPw">Passion Week</a></li>
               </ul>
             </div>
           </li>
@@ -68,7 +70,8 @@ export default {
     ...mapGetters(["isAuthenticated", "loggedInUser"])
   },
   props: {
-    introNavActive: true
+    introNavActive: true,
+    pwNavActive: true
   },
   methods: {
     showIntro() {
@@ -76,6 +79,12 @@ export default {
       let introBlock = document.getElementById("intro-overlay")
       introBlock.style.display = "block"
       introBlock.style.top = window.scrollY + "px"
+    },
+    showPw() {
+      document.getElementsByTagName("body")[0].style.overflow = "hidden"
+      let pwBlock = document.getElementById("pw-overlay")
+      pwBlock.style.display = "block"
+      pwBlock.style.top = window.scrollY + "px"
     }
   }
 }
