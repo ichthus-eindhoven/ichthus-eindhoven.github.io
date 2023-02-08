@@ -5,7 +5,7 @@
     style="background-image: url(/img/hero.webp);"
     uk-parallax="bgy: -200;"
   >
-    <home-nav :intro-nav-active="introNavActive"/>
+    <home-nav :intro-nav-active="introNavActive" :pw-nav-active="pwNavActive"/>
     <div class="uk-section">
       <div class="uk-position-center homepage-title uk-text-center uk-light">
         <h1 class="uk-margin-remove uk-heading-hero">
@@ -30,7 +30,8 @@
 export default {
   name: "Hero",
   props: {
-    introNavActive: true
+    introNavActive: true,
+    pwNavActive: true
   }
 }
 </script>

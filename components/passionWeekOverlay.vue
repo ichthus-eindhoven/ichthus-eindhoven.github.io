@@ -5,11 +5,18 @@
           <img src="img/wapen.png" width="100" height="80" class="uk-preserve" uk-svg>
       </div>-->
       <h2 class="uk-heading-line uk-text-center uk-align-center pw-title"><span>Passion Week activiteiten</span></h2>
+      <div class="desktop" uk-switcher="animation: uk-animation-fade; toggle: > *">
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          Passion Week
+        </button>
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          Student Alpha
+        </button>
+      </div><!--Switcher-->
 
-<div class="desktop">
       <!-- order of <li> elements decides which switcher tab is used -->
-      <ul class="uk-align-center uk-margin uk-container" style="list-style: none">
-        <!--Startweken-->
+      <ul class="uk-switcher uk-align-center uk-margin uk-container" style="list-style: none">
+        <!--Passion Week-->
         <li style="color:white">
           <div uk-slider>
             <div class="uk-position-relative uk-visible-toggle uk-light">
@@ -37,7 +44,7 @@
                 </li>
               </ul>
             </div>
-            <div style="padding: 25px">
+            <div style="padding-top: 25px">
                 <!--padding-->
             </div>
             <div>
@@ -49,15 +56,8 @@
                 met zich meebrengt en hoe geloof ons hiervan kan bevrijden.   </p>
             </div>
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
-
           </div>
-        </li>     
-      </ul> <!-- Data -->
-            </div><!--Switcher-->
-    </div>
-    <!-- Buttons -->
-    <!-- <div id="overlay-back-button" class="uk-flex uk-align-center"> -->
-    <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
+                    <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
       <button
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
         @click="goToSite()">
@@ -69,7 +69,66 @@
         <b>Kijk op Instagram voor meer informatie!</b>
       </a>
     </div>
-  </div>
+        </li>     
+        <!--Alpha-->
+        <li style="color:white; margin-bottom: 0px; padding-bottom: 0px">
+                      <div uk-slider style="margin-bottom: 0px">
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+              <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/alpha-1.webp" uk-img>
+                    </div>                 
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/alpha-2.webp" uk-img>
+                    </div>               
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/alpha-3.webp" uk-img>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div style="padding-top: 25px">
+                <!--padding-->
+            </div>
+            <div>
+              <p class="text-medium" style="text-align: justify">
+                Als Ichthus willen we graag mensen laten kennismaken met het geloof! Daarom organiseren
+wij Student Alpha. Dit is een cursus waarin nieuwe gelovigen en geïnteresseerden in het
+geloof kennis kunnen maken met de basisbeginselen van geloof. Het is een plek waar je
+samen eet en daarna samen in gesprek gaat over geloofsonderwerpen. De liefde van Jezus
+staat centraal en daarnaast is gezelligheid en groepsbinding een belangrijk onderdeel. Als je
+geïnteresseerd bent, of er gewoon een keer over wilt praten. Stuur ons gerust een mailtje op <a style="text-decoration: underline" href="mailto:
+studentalpha.eindhoven@gmail.com">studentalpha.eindhoven@gmail.com</a>!</p>
+            </div>
+          </div>
+                    <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m" style="padding-top: 0px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px">
+      <button
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
+        @click="goToSite()">
+        Ga door naar de website
+      </button>
+      <a
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
+        href="https://www.instagram.com/alphaeindhoven/">
+        <b>Kijk op Instagram voor meer informatie!</b>
+      </a>
+    </div>
+        </li>
+      </ul> <!-- Data -->
+    </div><!--Switcher-->
+    </div>
+
 </template>
 
 <script>
@@ -97,10 +156,6 @@ export default {
       }
     },
     goToSite() {
-      this.$cookies.set("sawPw", true, {
-        path: "/",
-        maxAge: 60 * 60 * 24
-      })
       document.getElementsByTagName("body")[0].style.overflow = "auto"
       document.getElementById("pw-overlay").style.display = "none"
     }
