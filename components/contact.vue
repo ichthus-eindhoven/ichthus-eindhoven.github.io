@@ -178,7 +178,8 @@
                     <!--                    <a-->
                     <!--                      href="https://ichthuseindhoven.nl/privacy-avg"-->
                     <!--                      target="_blank"-->
-                    <!--                    >Privacy Voorwaarden</a>.--></label>
+                    <!--                    >Privacy Voorwaarden</a>.-->
+                    <!--</label>
                 </div>
               </div>
             </div>
@@ -191,7 +192,7 @@
               </button>
             </div>
           </div>
-          <!--recaptcha-->
+          <!--recaptcha--><!--
         </form>
         -->
       </div>
