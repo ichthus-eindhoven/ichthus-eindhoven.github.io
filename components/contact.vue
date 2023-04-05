@@ -72,6 +72,7 @@
             </div>
           </div>
         </div>
+        <!--
         <hr id="contactHR">
         <form
           id="contactForm"
@@ -192,6 +193,7 @@
           </div>
           <!--recaptcha-->
         </form>
+        -->
       </div>
     </div>
   </div>
