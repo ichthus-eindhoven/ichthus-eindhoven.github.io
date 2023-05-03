@@ -1,47 +1,28 @@
 <template>
-  <div id="partners" class="uk-section uk-section-default uk-padding-remove-bottom">
+  <div id="partners" class="uk-section uk-section-default">
     <div class="uk-container uk-text-center uk-text-middle">
       <h2 class="uk-heading-line uk-text-center">
         <span>Partners</span>
       </h2>
       <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle" uk-grid>
-        <div>
+        <div style="max-height: 100px;">
           <a
             class="sponsor-item"
             href="https://www.knaek.nl/studentenkorting/Eindhoven"
             target="_blank"
           >
-            <img alt="" data-src="/img/partners/knaek.png" uk-img>
+            <img style="max-height: 100px; max-width: 160px" alt="" data-src="/img/partners/knaek.png" uk-img>
           </a>
         </div>
-        <div>
-          <a
-            class="sponsor-item"
-            href="https://www.voetbaltafelwinkel.nl/"
-            target="_blank"
-          >
-            <img alt="Voetbaltafels voor verenigingen" src="img/partners/voetbaltafelwinkel.png">
-          </a>
-        </div>
-        <div>
-          <a
-            class="sponsor-item"
-            href="https://www.studentenwegwijzer.nl/"
-            target="_blank"
-          >
-            <img alt="Link naar studentenwegwijzer" data-src="/img/partners/studentenwegwijzer.gif" uk-img>
-          </a>
-        </div>
-      </div>
-      <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle uk-margin-remove-top" uk-grid>
-        <div>
+        <div style="max-height: 100px;">
           <a
             class="sponsor-item"
             href="https://www.stricters.com/nl/"
             target="_blank">
-            <img alt="Link naar stricters.com" data-src="/img/partners/stricters.png" uk-img>
+            <img style="max-height: 100px; max-width: 160px" alt="Link naar stricters.com" data-src="/img/partners/stricters.png" uk-img>
           </a>
         </div>
+        <!-- sliding banner, bij vernieuwen contract weer toevoegen
         <div
           class="uk-position-relative"
           uk-slideshow="autoplay: true;autoplay-interval: 3000;"
@@ -53,14 +34,14 @@
               class="sponsor-item" uk-img></a>
             </li>
           </ul>
-        </div>
-        <div>
+        </div>-->
+        <div style="max-height: 100px;">
           <a
             class="sponsor-item"
             href="https://www.sponsorkliks.com/winkels.php?club=9374"
             target="_blank"
           >
-            <img
+            <img style="max-height: 100px; max-width: 160px" 
               alt="SponsorKliks, gratis Ichthus sponsoren!"
               src="/img/partners/sponsorkliks.png"
               title="SponsorKliks, sponsor Ichthus gratis!"
@@ -71,6 +52,7 @@
     </div>
   </div>
 </template>
+<!-- Script voor sliding banner, bij vernieuwen contract weer toevoegen
 <script>
 export default {
   name: "Partners",
@@ -129,3 +111,4 @@ export default {
 }
 
 </style>
+-->

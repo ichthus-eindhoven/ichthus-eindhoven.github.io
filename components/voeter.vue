@@ -42,8 +42,13 @@
             uk-icon="icon:instagram; ratio:1"
           /></a>
         </div>
+        <div>
+          <a href="https://www.linkedin.com/company/c-s-v-ichthus-eindhoven?original_referer=site" target="_blank"><span
+            uk-icon="icon:linkedin; ratio:1"
+          /></a>
+        </div>
       </div>
-      <p>C.S.V. Ichthus Eindhoven © 2022 | <a href="privacy" target="_blank">Privacy Statement</a> | v3.0 </p>
+      <p>C.S.V. Ichthus Eindhoven © 2023 | <!--<a href="privacy" target="_blank">Privacy Statement</a> | -->v3.0 </p>
     </div>
   </div>
 </template>

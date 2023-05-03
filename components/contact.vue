@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <div class="uk-section uk-section-muted">
+    <div class="uk-section uk-section-muted uk-padding-remove-bottom">
       <div class="uk-container">
         <h2 class="uk-heading-line uk-text-left">
           <span>Contact</span>
@@ -72,7 +72,8 @@
             </div>
           </div>
         </div>
-        <!--
+        <!-- wie dit leest trekt een bak
+          Contact formulier is uitgezet omdat dit niet werkt op een 
         <hr id="contactHR">
         <form
           id="contactForm"
@@ -175,7 +176,7 @@
                     class="uk-form-label"
                     for="accepted"
                   >Ik ga akkoord met het verwerken van mijn gegevens.
-                    <!--                    <a-->
+                    < !--                    <a-->
                     <!--                      href="https://ichthuseindhoven.nl/privacy-avg"-->
                     <!--                      target="_blank"-->
                     <!--                    >Privacy Voorwaarden</a>.-->
@@ -192,7 +193,7 @@
               </button>
             </div>
           </div>
-          <!--recaptcha--><!--
+          < !--recaptcha--><!--
         </form>
         -->
       </div>

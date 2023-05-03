@@ -1,5 +1,5 @@
 <template>
-  <div id="business" class="uk-section uk-section-muted">
+  <div id="business" class="uk-section uk-section-muted uk-padding-remove-top">
     <div class="uk-container">
       <h2 class="uk-heading-line uk-text-left">
         <span>Partner Worden?</span>

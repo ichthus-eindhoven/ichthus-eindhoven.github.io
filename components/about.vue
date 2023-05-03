@@ -24,6 +24,7 @@
         het onlangs aangekochte pand hopen wij ook zichtbaar in en verbonden
         met de stad te zijn.
       </p>
+      <p><strong>Op zoek naar een kamer in Eindhoven?</strong> Stuur een mail naar <a href="mailto:kamers@ichthuseindhoven.nl">kamers@ichthuseindhoven.nl</a></p>
       <h3>Verenigingsstructuren</h3>
       <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
         <div>
