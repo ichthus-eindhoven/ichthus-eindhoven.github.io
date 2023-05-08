@@ -12,19 +12,20 @@
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">Fontys
           Intro
         </button>-->
-        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
           Startweken
-        </button>
+        </button>-->
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
-          Slaapplek nodig?
+          Open Avond
         </button>
+        
       </div><!--Switcher-->
 
 
       <!-- order of <li> elements decides which switcher tab is used -->
       <ul class="uk-switcher uk-align-center uk-margin uk-container">
         <!--Startweken-->
-        <li style="color:white">
+        <!--<li style="color:white">
           <p>
             De eerste weken van het jaar organiseren we op dinsdag de Ichthus startweken. Kom gezellig een keer
             langs om verenigingsavond bij ons te ervaren!
@@ -101,26 +102,16 @@
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
 
           </div>
-        </li>
-        <!--Slaapplek nodig?-->
+        </li>-->
+        <!--Open Avond-->
         <li>
           <div uk-slider="center: true">
             <div class="uk-position-relative uk-visible-toggle uk-light">
-              <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid">
+              <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
                 <li>
                   <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                      <!--<img data-src="img/media/01.webp" alt="" uk-img> Commented because no suitable image-->
-                    </div>
-                    <div class="uk-card-body">
-                      <h3 class="uk-card-title">Slaapplek nodig?</h3>
-                      <p>Bij onze Ichthushuizen is er ruimte genoeg! Stuur een email naar
-                        <a href="mailto:startwekencie@ichthuseindhoven.nl"
-                           style="color:inherit"
-                        ><u>
-                          startwekencie@<br class="hidden-break">ichthuseindhoven.nl</u>
-                        </a>
-                      </p> en we kunnen vast wel wat regelen.
+                      <img data-src="img/media/openavond.webp" alt="" uk-img>
                     </div>
                   </div>
                 </li>
