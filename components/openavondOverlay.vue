@@ -51,10 +51,6 @@ export default {
       }
     },
     goToSite() {
-      this.$cookies.set("sawopenavond", true, {
-        path: "/",
-        maxAge: 60 * 60 * 24
-      })
       document.getElementsByTagName("body")[0].style.overflow = "auto"
       document.getElementById("openavond-overlay").style.display = "none"
     }

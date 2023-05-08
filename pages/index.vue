@@ -3,7 +3,7 @@
     <intro-overlay :intro-overlay-active="false"/>
     <passion-week-overlay :pw-overlay-active="false"/>
     <openavond-overlay :openavond-overlay-active="true"/>
-    <hero :intro-nav-active="false" :pw-nav-active="false" :openavond-nav-active="true"/>
+    <hero :intro-nav-active="false" :pw-nav-active="false" :openavond-nav-active="false"/>
     <blurb/>
     <!-- <activities /> -->
     <media/>
