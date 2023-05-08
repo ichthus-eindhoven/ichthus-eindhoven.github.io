@@ -5,23 +5,26 @@
           <img src="img/wapen.png" width="100" height="80" class="uk-preserve" uk-svg>
       </div>-->
       <h2 class="uk-heading-line uk-text-center uk-align-center openavond-title"><span>Open Avond</span></h2>
+      <div style="padding-top: 30px">
+                <!--padding-->
+            </div>
       <img alt="" data-src="img/media/openavond.webp" uk-img>
     </div>
 
     <!-- Buttons -->
     <!-- <div id="overlay-back-button" class="uk-flex uk-align-center"> -->
     <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
+      <a
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdqla3_IyWE3lyR2j3I9nMMoVT660zrjmducT-leB2S_DBIMQ/viewform?usp=sf_link">
+        <b> Word lid!</b>
+      </a>
       <button
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
         @click="goToSite()">
         Ga door naar de website
       </button>
-      <a
-        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
-        href="https://ichthuseindhoven.nl/interesse">
-        <!-- fallback:  https://docs.google.com/forms/d/1t_rCueQVHV_F6c-pccNthq5HCBgZSC9y45VfqobwJY8 -->
-        <b> Word lid!</b>
-      </a>
+      
     </div>
   </div>
 </template>
