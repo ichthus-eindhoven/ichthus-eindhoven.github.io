@@ -16,7 +16,8 @@
     <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
       <a
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdqla3_IyWE3lyR2j3I9nMMoVT660zrjmducT-leB2S_DBIMQ/viewform?usp=sf_link">
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdqla3_IyWE3lyR2j3I9nMMoVT660zrjmducT-leB2S_DBIMQ/viewform?usp=sf_link"
+        target="_blank">
         <b> Aanmelden </b>
       </a>
       <button

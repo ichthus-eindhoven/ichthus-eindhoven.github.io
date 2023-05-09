@@ -4,7 +4,10 @@
 
 ```bash
 # install dependencies
-$ npm install
+$ npm ci
+
+# In case this fails, check https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5 
+# "tl;dr package-lock moet niet in .gitignore maar als er wijzigingen zijn zouden die expliciet gedaan moeten zijn" - David de Rijke
 
 # serve with hot reload at localhost:3000
 $ npm run dev
