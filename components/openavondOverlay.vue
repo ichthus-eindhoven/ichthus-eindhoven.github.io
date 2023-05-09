@@ -17,7 +17,7 @@
       <a
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdqla3_IyWE3lyR2j3I9nMMoVT660zrjmducT-leB2S_DBIMQ/viewform?usp=sf_link">
-        <b> Word lid!</b>
+        <b> Aanmelden </b>
       </a>
       <button
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
