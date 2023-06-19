@@ -22,19 +22,6 @@
             <img style="max-height: 100px; max-width: 160px" alt="Link naar stricters.com" data-src="/img/partners/stricters.png" uk-img>
           </a>
         </div>
-        <!-- sliding banner, bij vernieuwen contract weer toevoegen
-        <div
-          class="uk-position-relative"
-          uk-slideshow="autoplay: true;autoplay-interval: 3000;"
-        >
-          <ul class="uk-slideshow-items uk-cover-container">
-            <li v-for="partner in sliderFiles" :key="partner.path">
-              <span class="helper"></span><a :href="partner.link"><img
-              :data-src="partner.path" alt=""
-              class="sponsor-item" uk-img></a>
-            </li>
-          </ul>
-        </div>-->
         <div style="max-height: 100px;">
           <a
             class="sponsor-item"
@@ -49,10 +36,37 @@
           </a>
         </div>
       </div>
+      <div class="uk-grid-match uk-child-width-1-2 uk-flex-middle" uk-grid>
+        <div style="max-height: 100px;"
+          class="uk-position-relative"
+          uk-slideshow="autoplay: true;autoplay-interval: 3000;"
+        >
+          <ul class="uk-slideshow-items uk-cover-container"  style="min-height: 80px; max-height: 100px;">
+            <li v-for="partner in sliderFiles" :key="partner.path">
+              <span class="helper"></span><a :href="partner.link"><img
+              :data-src="partner.path" alt=""
+              class="sponsor-item" uk-img></a>
+            </li>
+          </ul>
+        </div>
+        <div style="max-height: 100px;">
+          <a
+            class="sponsor-item"
+            href="https://www.budget-tie.nl/"
+            target="_blank"
+          >
+            <img style="max-height: 100px; max-width: 160px" 
+              alt="Ties and more"
+              src="/img/partners/budget_tie.png"
+              title="Budget Tie"
+            >
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
-<!-- Script voor sliding banner, bij vernieuwen contract weer toevoegen
+
 <script>
 export default {
   name: "Partners",
@@ -60,23 +74,15 @@ export default {
     return {
       sliderFiles: [
         {path: "/img/partners/slider/BeBo_Parket.png", link: "https://www.beboparket.nl/"},
-        {path: "/img/partners/slider/Budgetgift.png", link: "https://www.budgetgift.nl/"},
+        {path: "/img/partners/slider/Bouwhuis-logo.png", link: "https://www.bouwhuis.com/"},
         {path: "/img/partners/slider/Comfort_Products.png", link: "https://www.comfort-producten.nl/"},
-        {path: "/img/partners/slider/Fleurdirect.png", link: "https://www.fleurdirect.nl/"},
-        {path: "/img/partners/slider/Hekwerkonline.png", link: "https://www.hekwerkonline.nl/"},
-        {path: "/img/partners/slider/inshared.png", link: "https://www.inshared.nl/"},
-        {path: "/img/partners/slider/Mokana.png", link: "https://www.mokana.nl/"},
         {path: "/img/partners/slider/ParcelPro.jpg", link: "https://www.parcelpro.nl/"},
-        {path: "/img/partners/slider/Sans_online.png", link: "https://www.sans-online.nl/dameskleding/truien/"},
-        {path: "/img/partners/slider/Schattige_Babykleertjes.png", link: "https://www.schattigebabykleertjes.nl/"},
-        {path: "/img/partners/slider/Sleiderink.png", link: "https://www.sleiderink.nl/hout-plaat/vurenhout"},
-        {
-          path: "/img/partners/slider/Sliponline.png",
-          link: "https://www.sliponline.nl/kinderen/kinder-nachtkleding/kinder-pyjama/"
-        },
+        {path: "/img/partners/slider/Shops-united_logo.jpg", link: "https://shops-united.nl/"},
         {path: "/img/partners/slider/Stellingstunt.png", link: "https://www.stellingstunt.nl/"},
-        {path: "/img/partners/slider/Sweetlivingshop.png", link: "https://www.sweetlivingshop.nl/"},
-        {path: "/img/partners/slider/Van_Eyck_shutters.png", link: "https://www.vaneyckshutters.com/"}
+        {path: "/img/partners/slider/Stile_Floors_logo.png", link: "https://stilefloors.nl/"},
+        {path: "/img/partners/slider/TrafficToday.jpg", link: "https://www.traffictoday.nl/"},
+        {path: "/img/partners/slider/Vd_Garde_logo.png", link: "https://www.vdgarde.nl/"},
+        {path: "/img/partners/slider/VerzekeringNL_Logo.png", link: "https://www.verzekering.nl/autoverzekering/"}
       ]
     }
   }
@@ -93,7 +99,7 @@ export default {
 .sponsor-item {
   max-width: 160px;
   margin: auto;
-  max-height: 100%;
+  max-height: 100px;
   vertical-align: middle;
 
 }
@@ -111,4 +117,3 @@ export default {
 }
 
 </style>
--->
