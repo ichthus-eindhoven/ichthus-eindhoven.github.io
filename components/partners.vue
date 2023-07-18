@@ -36,7 +36,20 @@
           </a>
         </div>
       </div>
-      <div class="uk-grid-match uk-child-width-1-2 uk-flex-middle" uk-grid>
+      <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle" uk-grid>
+        <div style="max-height: 100px;">
+          <a
+            class="sponsor-item"
+            href="http://www.ventilatieland.nl/"
+            target="_blank"
+          >
+            <img style="max-height: 100px; max-width: 160px" 
+              alt="Ventilatieland"
+              src="/img/partners/ventilatieland.jpg"
+              title="Ventilatieland"
+            >
+          </a>
+        </div>
         <div style="max-height: 100px;"
           class="uk-position-relative"
           uk-slideshow="autoplay: true;autoplay-interval: 3000;"
@@ -77,9 +90,9 @@ export default {
         {path: "/img/partners/slider/Bouwhuis-logo.png", link: "https://www.bouwhuis.com/"},
         {path: "/img/partners/slider/Comfort_Products.png", link: "https://www.comfort-producten.nl/"},
         {path: "/img/partners/slider/ParcelPro.jpg", link: "https://www.parcelpro.nl/"},
-        {path: "/img/partners/slider/Shops-united_logo.jpg", link: "https://shops-united.nl/"},
+        {path: "/img/partners/slider/Shops-united.png", link: "https://shops-united.nl/"},
         {path: "/img/partners/slider/Stellingstunt.png", link: "https://www.stellingstunt.nl/"},
-        {path: "/img/partners/slider/Stile_Floors_logo.png", link: "https://stilefloors.nl/"},
+        {path: "/img/partners/slider/inshared.png", link: "https://www.inshared.nl/"},
         {path: "/img/partners/slider/TrafficToday.jpg", link: "https://www.traffictoday.nl/"},
         {path: "/img/partners/slider/Vd_Garde_logo.png", link: "https://www.vdgarde.nl/"},
         {path: "/img/partners/slider/VerzekeringNL_Logo.png", link: "https://www.verzekering.nl/autoverzekering/"}
