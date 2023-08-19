@@ -33,7 +33,7 @@
                     <h3 class="uk-card-title uk-margin-remove-bottom">
                       Telefoon
                     </h3>
-                    +31 6 51 69 15 22
+                    +31 6 11 83 61 04
                   </div>
                 </div>
               </div>
