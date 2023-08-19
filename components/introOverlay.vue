@@ -179,7 +179,7 @@
     </div>
     <!-- Buttons -->
     <!-- <div id="overlay-back-button" class="uk-flex uk-align-center"> -->
-    <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
+    <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m" style="padding-top: 0px; margin-top: 0px; margin-bottom: 0px; padding-bottom: 0px">
       <button
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
         @click="goToSite()">
@@ -188,8 +188,7 @@
       <a
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
         href="https://docs.google.com/forms/d/e/1FAIpQLScmVImVt2BiEFtbJABshTV28FpGXMmbom8Q-lyyA3LMfhUvLw/viewform?usp=sf_link">
-        <!-- fallback:  https://docs.google.com/forms/d/1t_rCueQVHV_F6c-pccNthq5HCBgZSC9y45VfqobwJY8 -->
-        <b> Word lid!</b>
+        <b>Word lid!</b>
       </a>
     </div>
   </div>
@@ -220,10 +219,10 @@ export default {
       }
     },
     goToSite() {
-      this.$cookies.set("sawIntro", true, {
+      /* this.$cookies.set("sawIntro", true, {
         path: "/",
         maxAge: 60 * 60 * 24
-      })
+      }) */
       document.getElementsByTagName("body")[0].style.overflow = "auto"
       document.getElementById("intro-overlay").style.display = "none"
     }

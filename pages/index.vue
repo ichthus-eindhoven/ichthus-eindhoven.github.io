@@ -3,7 +3,7 @@
     <intro-overlay :intro-overlay-active="true"/>
     <passion-week-overlay :pw-overlay-active="false"/>
     <openavond-overlay :openavond-overlay-active="false"/>
-    <hero :intro-nav-active="true" :pw-nav-active="false" :openavond-nav-active="false"/>
+    <hero :intro-nav-active="false" :pw-nav-active="false" :openavond-nav-active="false"/>
     <blurb/>
     <!-- <activities /> -->
     <media/>
@@ -21,19 +21,19 @@ import Vue from "vue"
 
 export default Vue.extend({
   name: "HomeComponent",
-  // data() {
-  //   if (this.$cookies.get("sawIntro")) {
-  //     return {
-  //       introNavActive: true,
-  //       introOverlayActive: false
-  //     }
-  //   } else {
-  //     return {
-  //       introNavActive: false,
-  //       introOverlayActive: false
-  //     }
-  //   }
-  // },
+   /* data() {
+     if (this.$cookies.get("sawIntro")) {
+       return {
+         introNavActive: true,
+         introOverlayActive: false
+       }
+     } else {
+       return {
+         introNavActive: false,
+         introOverlayActive: false
+       }
+     }
+   }, */
   //triggerCi
   head: {
     title: "C.S.V. Ichthus Eindhoven",
