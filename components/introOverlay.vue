@@ -6,26 +6,107 @@
       </div>-->
       <h2 class="uk-heading-line uk-text-center uk-align-center intro-title"><span>Introweek activiteiten</span></h2>
       <div class="desktop" uk-switcher="animation: uk-animation-fade; toggle: > *">
-        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">TU
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">TU
           Intro
         </button>
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">Fontys
           Intro
-        </button>-->
-        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
-          Startweken
-        </button>-->
-        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
-          Open Avond
         </button>
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          Startweken
+        </button>
+        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          Open Avond
+        </button>-->
         
       </div><!--Switcher-->
 
 
       <!-- order of <li> elements decides which switcher tab is used -->
       <ul class="uk-switcher uk-align-center uk-margin uk-container">
+        <!--TU intro-->
+        <li style="color:white">
+          <div uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+              <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/intro_campus_markt_2022.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Campus Markt</h3>
+                      <p>Dinsdag 22 augustus</p>
+                      <p>
+                        Ook dit jaar staan we weer op de campus markt. Kom gezellig langs om Ichthus alvast te leren kennen.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/intro_lasergamen_2022.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Culture evening</h3>
+                      <p>Woensdag 23 augustus</p>
+                      <p>
+                        Kom lasergamen bij de culture evening.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/02.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Workshops</h3>
+                      <p>Donderdag 24 augustus</p>
+                      <p>
+                        Escaperoom of worship en Bijbelstudie
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                 uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                 uk-slider-item="next"></a>
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
+          </div>
+        </li>
+
+        <!--Fontys intro-->
+        <li style="color:white">
+          <div class="uk-child-width-1-3@s">
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+              <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                  <img alt="" data-src="img/media/intro_fontys_2022.webp" uk-img>
+                </div>    
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">StadsBBQ</h3>
+                  <p>Woensdag 23 augustus</p>
+                  <p>
+                    Tijdens de barbecue zijn wij er ook bij. We nemen het sponzenbord. Kom gezellig langs!
+                  </p>
+                </div>
+              </div>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                 uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                 uk-slider-item="next"></a>
+            </div>
+          </div>
+        </li>
+
         <!--Startweken-->
-        <!--<li style="color:white">
+        <li style="color:white">
           <p>
             De eerste weken van het jaar organiseren we op dinsdag de Ichthus startweken. Kom gezellig een keer
             langs om verenigingsavond bij ons te ervaren!
@@ -39,8 +120,8 @@
                       <img alt="" data-src="img/media/intro_tourdehap.webp" uk-img>
                     </div>
                     <div class="uk-card-body">
-                      <h3 class="uk-card-title">Dinsdag 6 September</h3>
-                      <p>Startavond 1: Tour de Hap</p>
+                      <h3 class="uk-card-title">Dinsdag 5 September</h3>
+                      <p>Startavond 1: Fietsen en Fuiven</p>
                       <p>Een actieve avond om elkaar, ‘de huizen’ en Eindhoven beter te leren kennen
                         op een gezellige manier.
                       </p>
@@ -56,7 +137,7 @@
                       <img alt="" data-src="img/media/intro_ga.webp" uk-img>
                     </div>
                     <div class="uk-card-body">
-                      <h3 class="uk-card-title">Dinsdag 13 september</h3>
+                      <h3 class="uk-card-title">Dinsdag 12 september</h3>
                       <p>Startavond 2: GA</p>
                       <p>
                         Een GA (Gemeenschappelijke Avond) die een indruk geeft van hoe een avond met
@@ -74,12 +155,11 @@
                       <img alt="" data-src="img/media/intro_kring.webp" uk-img>
                     </div>
                     <div class="uk-card-body">
-                      <h3 class="uk-card-title">Dinsdag 20 September</h3>
+                      <h3 class="uk-card-title">Dinsdag 19 September</h3>
                       <p>Startavond 3: Kring</p>
                       <p>Een kringavond waarbij we eten en bijbelstudie doen met een kleinere
                         groep.</p>
                       <p>We verzamelen om 17:45 bij Amnis, Dommelstraat 6!</p>
-
                     </div>
                   </div>
                 </li>
@@ -89,43 +169,11 @@
               <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
                  uk-slider-item="next"></a>
             </div>
-            <p class="text-large">
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
+          </div>
+          <p class="text-large">
               Neem elke avond ook je fiets en studentenkaart mee!
             </p>
-            <div>
-              <p class="text-large">
-                Dinsdag 13 september, de dag van de tweede startavond van Ichthus, rijden de treinen niet vanwege een
-                staking van NS. Om ervoor te kunnen zorgen dat mensen die niet in Eindhoven wonen gewoon aanwezig kunnen
-                zijn bieden wij slaapplekken aan van maandag op dinsdag en van dinsdag op woensdag.
-              </p>
-            </div>
-            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
-
-          </div>
-        </li>-->
-        <!--Open Avond-->
-        <li>
-          <div uk-slider="center: true">
-            <div class="uk-position-relative uk-visible-toggle uk-light">
-              <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
-                <li>
-                  <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                      <img data-src="img/media/openavond.webp" alt="" uk-img>
-                    </div>
-                  </div>
-                </li>
-
-              </ul>
-              <a class="uk-position-center-left uk-position-small " href="#" uk-slidenav-previous
-                 uk-slider-item="previous"></a>
-              <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
-                 uk-slider-item="next"></a>
-            </div>
-
-            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
-
-          </div>
         </li>
       </ul> <!-- Data -->
     </div>
@@ -139,7 +187,7 @@
       </button>
       <a
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
-        href="https://ichthuseindhoven.nl/interesse">
+        href="https://docs.google.com/forms/d/e/1FAIpQLScmVImVt2BiEFtbJABshTV28FpGXMmbom8Q-lyyA3LMfhUvLw/viewform?usp=sf_link">
         <!-- fallback:  https://docs.google.com/forms/d/1t_rCueQVHV_F6c-pccNthq5HCBgZSC9y45VfqobwJY8 -->
         <b> Word lid!</b>
       </a>
