@@ -70,6 +70,9 @@
                       </p>
                     </div>
                   </div>
+              <p class="text-medium">
+              Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
+            </p>
                 </li>
               </ul>
               <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
@@ -188,7 +191,7 @@
       <a
         class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
         href="https://docs.google.com/forms/d/e/1FAIpQLScmVImVt2BiEFtbJABshTV28FpGXMmbom8Q-lyyA3LMfhUvLw/viewform?usp=sf_link">
-        <b>Word lid!</b>
+        <b>Meld je aan!</b>
       </a>
     </div>
   </div>
