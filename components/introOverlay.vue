@@ -70,11 +70,11 @@
                       </p>
                     </div>
                   </div>
-              <p class="text-medium">
+                </li>        
+              </ul>
+                            <p class="text-medium">
               Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
             </p>
-                </li>
-              </ul>
               <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
                  uk-slidenav-previous uk-slider-item="previous"></a>
               <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
