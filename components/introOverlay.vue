@@ -15,9 +15,9 @@
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
           Startweken
         </button>
-        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
-          Open Avond
-        </button>-->
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          International?
+        </button>
         
       </div><!--Switcher-->
 
@@ -72,9 +72,9 @@
                   </div>
                 </li>        
               </ul>
-                            <p class="text-medium">
-              Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
-            </p>
+              <p class="text-medium">
+                Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
+              </p>
               <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
                  uk-slidenav-previous uk-slider-item="previous"></a>
               <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
@@ -177,6 +177,61 @@
           <p class="text-large">
               Neem elke avond ook je fiets en studentenkaart mee!
             </p>
+        </li>
+
+        <!--Host-->
+        <li style="color:white">
+          <div uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+              <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/host_landen.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Our socials</h3>
+                      <p>Visit our website: <a style="color: #0a3758" href="https://www.ifes-eindhoven.nl/ ">www.ifes-eindhoven.nl</a></p>
+                      <p>Follow our <a style="color: #0a3758" href="https://www.instagram.com/hosteindhoven/">Instagram</a></p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/host_picknick.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Friday september 1st</h3>
+                      <p>Barbecue</p>
+                      <p>
+                        We will kick-off the year with a barbecue in the park. The evening starts at 18:00 and will be in the Karpendonkse Plas.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/host_avond.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Friday september 15th</h3>
+                      <p>Host night</p>
+                      <p>
+                        We will have dinner together and organize an activity. Visit and get to know the HOST community in reality. The evening starts at 18:00 and is at Amnis, Dommelstraat 6!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                 uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                 uk-slider-item="next"></a>
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
+          </div>
         </li>
       </ul> <!-- Data -->
     </div>
