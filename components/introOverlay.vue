@@ -6,11 +6,14 @@
       </div>-->
       <h2 class="uk-heading-line uk-text-center uk-align-center intro-title"><span>Introweek activiteiten</span></h2>
       <div class="desktop" uk-switcher="animation: uk-animation-fade; toggle: > *">
-        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">TU
+        <!--<button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">TU
           Intro
         </button>
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">Fontys
           Intro
+        </button>-->
+        <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
+          Open P&P
         </button>
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
           Startweken
@@ -25,7 +28,7 @@
       <!-- order of <li> elements decides which switcher tab is used -->
       <ul class="uk-switcher uk-align-center uk-margin uk-container">
         <!--TU intro-->
-        <li style="color:white">
+        <!--<li style="color:white">
           <div uk-slider>
             <div class="uk-position-relative uk-visible-toggle uk-light">
               <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
@@ -82,10 +85,10 @@
             </div>
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
           </div>
-        </li>
+        </li>-->
 
         <!--Fontys intro-->
-        <li style="color:white">
+        <!--<li style="color:white">
           <div class="uk-child-width-1-3@s">
             <div class="uk-position-relative uk-visible-toggle uk-light">
               <div class="uk-card uk-card-default">
@@ -105,6 +108,39 @@
               <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
                  uk-slider-item="next"></a>
             </div>
+          </div>
+        </li>-->
+        <!--P&P-->
+        <li style="color:white">
+          <div uk-slider="center: TRUE">
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+              <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
+                <li>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img alt="" data-src="img/media/praise_en_prayer.webp" uk-img>
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title">Dinsdag 29 September</h3>
+                      <p>Open Praise & Prayer</p>
+                      <p>Ben jij geïntereseerd in Ichthus kom dan langs bij de Praise & Prayer. We gaan samen God aanbidden.
+                      </p>
+                      <p>
+                        We beginnen 20:00 in Amnis, Dommelstraat 6! Vanaf 22:00 is er een borrel.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                 uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                 uk-slider-item="next"></a>
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin activity-dotnav"></ul>
+            <p class="text-medium">
+                Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
+              </p>
           </div>
         </li>
 
@@ -176,11 +212,17 @@
           </div>
           <p class="text-large">
               Neem elke avond ook je fiets en studentenkaart mee!
-            </p>
+          </p>
+          <p class="text-medium">
+              Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
+          </p>
         </li>
 
         <!--Host-->
         <li style="color:white">
+          <p class="text-large">
+            HOST is the international community of christian students in Eindhoven.
+          </p>
           <div uk-slider>
             <div class="uk-position-relative uk-visible-toggle uk-light">
               <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid uk-grid-match">
