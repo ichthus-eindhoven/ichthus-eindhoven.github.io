@@ -11,10 +11,10 @@
         </button>
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">Fontys
           Intro
-        </button>-->
+        </button>
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
           Open P&P
-        </button>
+        </button>-->
         <button class="uk-button uk-button-primary uk-button-large activity-btn uk-border-rounded" type="button">
           Startweken
         </button>
@@ -110,7 +110,7 @@
             </div>
           </div>
         </li>-->
-        <!--P&P-->
+        <!--P&P
         <li style="color:white">
           <div uk-slider="center: TRUE">
             <div class="uk-position-relative uk-visible-toggle uk-light">
@@ -142,7 +142,7 @@
                 Slaapplek nodig? Mail <a href="mailto:slaapplekken@ichthuseindhoven.nl">slaapplekken@ichthuseindhoven.nl</a>
               </p>
           </div>
-        </li>
+        </li>-->
 
         <!--Startweken-->
         <li style="color:white">
