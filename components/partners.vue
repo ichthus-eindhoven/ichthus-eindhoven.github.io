@@ -4,7 +4,7 @@
       <h2 class="uk-heading-line uk-text-center">
         <span>Partners</span>
       </h2>
-      <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle" uk-grid>
+      <div class="uk-grid-match uk-child-width-1-4 uk-flex-middle" uk-grid>
         <div style="max-height: 100px;">
           <a
             class="sponsor-item"
@@ -35,6 +35,19 @@
             >
           </a>
         </div>
+        <div style="max-height: 100px;">
+          <a
+            class="sponsor-item"
+            href="https://www.simac.com/en"
+            target="_blank"
+          >
+            <img style="max-height: 100px; max-width: 160px" 
+              alt="Turning technology into High-Quality Solutions!"
+              src="/img/partners/Simac.png"
+              title="Turning technology into High-Quality Solutions!"
+            >
+          </a>
+        </div>
       </div>
       <div class="uk-grid-match uk-child-width-1-3 uk-flex-middle" uk-grid>
         <div style="max-height: 100px;">
@@ -55,7 +68,7 @@
           uk-slideshow="autoplay: true;autoplay-interval: 3000;"
         >
           <ul class="uk-slideshow-items uk-cover-container"  style="min-height: 80px; max-height: 100px;">
-            <li v-for="partner in sliderFiles" :key="partner.path">
+            <li v-for="partner in sliderFiles" :key="partner.path" style="min-height: 80px; max-height: 100px;">
               <span class="helper"></span><a :href="partner.link"><img
               :data-src="partner.path" alt=""
               class="sponsor-item" uk-img></a>
