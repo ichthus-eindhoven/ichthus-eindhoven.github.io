@@ -11,10 +11,15 @@
           uk-scrollspy-nav="closest: li; scroll: true;offset:80"
         >
           <li><a href="#hero">Home</a></li>
-          <li><a href="#media">Media</a></li>
+          <!-- <li><a href="#media">Media</a></li> -->
           <li><a href="#about">Vereniging</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#partners">Partners</a></li>
+          <li><a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdFRc4-lUmXzHNCyset09Ggo2r5UO2n3LAL9o_MhFU_cxpJ4g/viewform" 
+                  target="_blank">
+                  Word lid
+          </a></li>
           <li v-if="this.introNavActive"><a href="#hero" @click="showIntro">Intro</a></li>
           <li v-if="this.pwNavActive"><a href="#hero" @click="showPw">Passion Week</a></li>
         </ul>
@@ -33,6 +38,7 @@
                 <li><a href="#about">Vereniging</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#partners">Partners</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFRc4-lUmXzHNCyset09Ggo2r5UO2n3LAL9o_MhFU_cxpJ4g/viewform" target="_blank">Word lid</a></li>
                 <li v-if="this.introNavActive"><a @click="showIntro">Intro</a></li>
                 <li v-if="this.pwNavActive"><a @click="showPw">Passion Week</a></li>
               </ul>
@@ -52,6 +58,9 @@
       </div>
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
+          <li><a
+            href="https://crashplace.nl/?p=search&q=Ichthus&type=no&gender=no&places=no" target="_blank">Crashplace</a>
+          </li>
           <li><a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfyL0-7Pl-GNi9kRwfmsERrJvCHx455shmJQHYF3vzz46np8A/viewform">Reserveren</a>
           </li>

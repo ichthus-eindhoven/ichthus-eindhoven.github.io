@@ -8,20 +8,26 @@
       <div style="padding-top: 30px">
                 <!--padding-->
             </div>
-      <img alt="" data-src="img/media/openavond.webp" uk-img>
+      <img style="width: 30%" alt="" data-src="img/media/openavond.jpg" uk-img>
     </div>
 
     <!-- Buttons -->
     <!-- <div id="overlay-back-button" class="uk-flex uk-align-center"> -->
     <div id="back-button" class="desktop overlayButtonsSmall uk-align-center uk-width-1-1 uk-width-1-2@m">
       <a
-        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-2"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdqla3_IyWE3lyR2j3I9nMMoVT660zrjmducT-leB2S_DBIMQ/viewform?usp=sf_link"
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-margin-small-right uk-width-1-3"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdFVAx1M6OkjHnLIlonBwx-1_3AdnvQZrTirvM3uiU9aGTHpA/viewform"
         target="_blank">
-        <b> Aanmelden </b>
+        <b>Aanmelden Open Avond</b>
+      </a>
+      <a
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn join-us-btn uk-width-1-3"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdFRc4-lUmXzHNCyset09Ggo2r5UO2n3LAL9o_MhFU_cxpJ4g/viewform?usp=sf_link"
+        target="_blank">
+        <b>Word Lid</b>
       </a>
       <button
-        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-width-1-2"
+        class="uk-button uk-button-primary uk-button-medium uk-margin-small-bottom uk-border-rounded to-site-btn uk-margin-small-left uk-width-1-3"
         @click="goToSite()">
         Ga door naar de website
       </button>

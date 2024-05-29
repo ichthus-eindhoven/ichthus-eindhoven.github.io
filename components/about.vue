@@ -25,6 +25,7 @@
         met de stad te zijn.
       </p>
       <p><strong>Op zoek naar een kamer in Eindhoven?</strong> Stuur een mail naar <a href="mailto:kamers@ichthuseindhoven.nl">kamers@ichthuseindhoven.nl</a></p>
+      <p><strong>Op zoek naar een kamer voor de introweek?</strong> <a href="https://crashplace.nl/?p=search&q=Ichthus&type=no&gender=no&places=no" target="_blank">Onze ichthushuizen zijn beschikbaar op Crashplace</a></p>
       <h3>Verenigingsstructuren</h3>
       <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
         <div>
