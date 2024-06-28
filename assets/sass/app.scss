@@ -104,6 +104,10 @@
   color: $ichthus-blauw;
 }
 
+.custom-move-up {
+  transform: translateX(-50%) translateY(-275%); /* Adjust the translateY value as needed */
+}
+
 /* Tablet landscape and bigger */
 
 @media (min-width: 960px) {

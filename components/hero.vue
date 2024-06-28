@@ -7,7 +7,7 @@
   >
     <home-nav :intro-nav-active="introNavActive" :pw-nav-active="pwNavActive"/>
     <div class="uk-section">
-      <div class="uk-position-center homepage-title uk-text-center uk-light">
+      <div class="uk-position-top-center homepage-title uk-text-center uk-light custom-move-up">
         <h1 class="uk-margin-remove uk-heading-hero">
           C.S.V. Ichthus Eindhoven
         </h1>
